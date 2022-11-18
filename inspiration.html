@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Шапка сайта-->
+    <header>
+        <h1 class="title">Цифровая живопись</h1>
+        <ul class="menu">
+            <li><a href = "index.html">Главная</a></li>
+            <li><a href = "history.html">История цифрового искусства</a></li>
+            <li><a href = "gallery.html">Галерея работ</a></li>
+            <li><a href = "dictionary.html">Словарь художника</a></li>
+            <li><a href = "inspiration.html">Идеи для вдохновения</a></li>
+        </ul>
+    </header>
+    <!--Основное содержание сайта-->
+    <main>
+        <article class="maincontent">
+            <h2>Идеи для вдохновения</h2>
+            <div class="container">
+                <div class="quotes">
+                    <p id="quote">Нажмите на кнопку, чтобы сгенерировать идею</p>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <button onclick="generate()" type="button" class="button2">
+                <p> <b> Новая идея! </b></p> </button>   
+            </div>
+        </article>
+    </main>
+    <!--Подвал сайта-->
+    <footer>
+        <address>
+            <button class="button">
+                <a href = "tel:89772997435"> <b>Позвонить по номеру </b></a>
+            </button>
+            <button class="button">
+                
+                    <a href = "mailto:liza.nickonova@mail.ru"><span><b>Написать письмо</b></span></a>
+               
+            </button>
+            <button class="button">
+                
+                <a href = "https://t.me/Curious_armadillo"><b>Написать в Telegram</b><span></span></a>
+                
+            </button>
+        </address>
+    </footer>    
+</body>
+</html>
