@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Шапка сайта-->
+    <header>
+        <h1 class="title">Цифровая живопись</h1>
+        <ul class="menu">
+            <li><a href = "index.html">Главная</a></li>
+            <li><a href = "history.html">История цифрового искусства</a></li>
+            <li><a href = "gallery.html">Галерея работ</a></li>
+            <li><a href = "#">Словарь художника</a></li>
+            <li><a href = "#">Идеи для вдохновения</a></li>
+            <li><a href = "#">Контакты</a></li>
+        </ul>
+    </header>
+    <!--Основное содержание сайта-->
+    <main>
+        <article class="maincontent">
+            <h2>Галеря артов</h2>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number -->
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 10</div>
+                <img src="дерево.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 10</div>
+                <img src="девушка под дождем.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">3 / 10</div>
+                <img src="река.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">4 / 10</div>
+                <img src="коты.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">5 / 10</div>
+                <img src="китаянка.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">6 / 10</div>
+                <img src="волк.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">7 / 10</div>
+                <img src="подсолнухи.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">8 / 10</div>
+                <img src="девочка.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">9 / 10</div>
+                <img src="скала.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">10 / 10</div>
+                <img src="крыша.png" style="width:100%">
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </article>
+    </main>
+    <!--Подвал сайта-->
+    <footer>
+        <address>
+            <button class="button">
+                <a href = "tel:89772997435"> <b>Позвонить по номеру </b></a>
+            </button>
+            <button class="button">
+                
+                    <a href = "mailto:liza.nickonova@mail.ru"><span><b>Написать письмо</b></span></a>
+               
+            </button>
+            <button class="button">
+                
+                <a href = "https://t.me/Curious_armadillo"><b>Написать в Telegram</b><span></span></a>
+                
+            </button>
+        </address>
+    </footer>    
+</body>
+</html>
