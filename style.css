@@ -184,3 +184,5 @@ address{
   from {opacity: .4}
   to {opacity: 1}
 }
+/*оформление словаря художника*/
+.dictpic{text-align: center;}
