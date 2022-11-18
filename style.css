@@ -1,0 +1,102 @@
+/*оформление шапки сайта*/
+header{
+    width: 100%;
+    background: oldlace;
+    position: sticky;
+    top: 0px;
+    font-family: 'Source Serif Pro', Times, serif;
+    border: 1px solid rgb(80, 15, 15);
+}
+.title{
+    font-size: 36px;
+    padding: 10px;
+    text-align: center;
+}
+.menu{
+    list-style: none;
+    margin: 30px 0 5px;
+    padding: 25px 0 5px;
+    text-align: center;
+}
+.menu li {display: inline-block;}
+.menu li:after {
+    content: "|";
+    display: inline-block;
+    vertical-align:top;
+}
+.menu li:last-child:after {content: none;}
+.menu a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 34px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.menu a, .menu a:visited {color:black;}
+.menu a.current, .menu a:hover {color:rgb(80, 15, 15);}
+@media (max-width: 550px) {
+    header {position: static;}
+    .menu {padding-top: 0;}
+    .menu li {display: block;}
+    .menu li:after {content: none;}
+    .menu a {
+      padding: 25px 0 20px; 
+      margin: 0 30px;
+    }
+}
+/*оформление основного контента страницы*/
+main{
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+    font-size: 17px;
+    background-color: antiquewhite;
+    font-family: 'Source Serif Pro', Times, serif;
+    border: 1px solid rgb(80, 15, 15);
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.image{
+    float:left;
+    margin: 10px 20px;
+}
+/*оформление подвала сайта*/
+footer{
+    width: 100%;
+    background: oldlace;
+    border: 1px solid rgb(80, 15, 15);
+}
+address{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    background-color: antiquewhite;
+    border-color: rgb(85, 49, 8);
+    border-radius: 5%;
+    transition-duration: 0.8s;
+    display:inline-block;
+    transition: ease-out 0.8s;
+    padding: 2%;
+    margin: 5%;
+    font-family: 'Source Serif Pro', Times, serif;
+}
+.button a{
+    text-decoration: none;
+    color: rgb(85, 49, 8);
+    font-size: larger;
+}
+.button:hover{
+    box-shadow: inset 400px 0 0 0 rgb(85, 49, 8);
+}
+.button:hover a{
+    color: antiquewhite;
+}
