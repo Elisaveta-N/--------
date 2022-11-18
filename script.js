@@ -1,3 +1,4 @@
+//создание слайд-галереи
 var slideIndex = 1;
 showSlides(slideIndex);
 
