@@ -83,9 +83,9 @@ address{
     background-color: antiquewhite;
     border-color: rgb(85, 49, 8);
     border-radius: 5%;
-    transition-duration: 0.8s;
+    transition-duration: 1s;
     display:inline-block;
-    transition: ease-out 0.8s;
+    transition: ease-out 1s;
     padding: 2%;
     margin: 5%;
     font-family: 'Source Serif Pro', Times, serif;
